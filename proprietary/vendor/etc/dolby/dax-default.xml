@@ -335,8 +335,8 @@
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
-        <surround-boost value="0"/>
-        <volmax-boost value="53"/>
+        <surround-boost value="30"/>
+        <volmax-boost value="57"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -366,7 +366,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="80"/>
         <volmax-boost value="16"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -395,7 +395,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -434,8 +434,8 @@
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
-        <surround-boost value="48"/>
-        <volmax-boost value="48"/>
+        <surround-boost value="30"/>
+        <volmax-boost value="80"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -463,8 +463,8 @@
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
-        <surround-boost value="32"/>
-        <volmax-boost value="40"/>
+        <surround-boost value="72"/>
+        <volmax-boost value="48"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -494,7 +494,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -524,7 +524,36 @@
       <reverb-suppression-amount value="9"/>
       <endpoint_type id="speaker">
         <ieq-enable value="true"/>
-        <ieq-amount value="6"/>
+        <ieq-amount value="10"/>
+        <include preset="ieq_balanced"/>
+        <calibration-boost value="0"/>
+        <dialog-enhancer-enable value="false"/>
+        <dialog-enhancer-amount value="6"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="0"/>
+        <volmax-boost value="40"/>
+        <volume-leveler-enable value="false"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="true"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+      </endpoint_type>
+      <endpoint_type id="headphone">
+        <ieq-enable value="false"/>
+        <ieq-amount value="7"/>
         <include preset="ieq_balanced"/>
         <calibration-boost value="0"/>
         <dialog-enhancer-enable value="false"/>
@@ -535,7 +564,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -593,7 +622,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -633,7 +662,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="32"/>
+        <volmax-boost value="80"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -692,7 +721,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -733,7 +762,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -762,7 +791,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -791,7 +820,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -832,7 +861,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -861,7 +890,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -890,7 +919,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -931,7 +960,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -960,7 +989,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -989,7 +1018,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -1030,7 +1059,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -1059,7 +1088,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -1088,7 +1117,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
@@ -1128,7 +1157,7 @@
         <peak-value value="240"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="35"/>
+        <volmax-boost value="49"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -1157,7 +1186,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="24"/>
+        <volmax-boost value="16"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -1187,7 +1216,7 @@
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="32"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
         <volume-leveler-out-target value="-256"/>
